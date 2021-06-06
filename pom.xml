@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Programming Language</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>Saro Technologies</name>
+		<url>http://saro.com/</url>
 	</organization>
 
 	<properties>
@@ -96,17 +96,14 @@
 	
 	<distributionManagement>
 	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.26.2.28:9980/mithuntechnologies/repository/wallmart-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.26.2.28:9980/mithuntechnologies/repository/wallmart-snapshot/</url>
-	    </snapshotRepository>
+	  <repository>
+	    <id>newrelease</id>
+	    <url>http://18.132.18.58:8081/repository/newrelease/</url>
+	  </repository>
+	  <snapshotRepository>
+	    <id>newsnapshot</id>
+	    <url>http://18.132.18.58:8081/repository/newsnapshot/</url>
+	  </snapshotRepository>
 	    
 	</distributionManagement>
 	
